@@ -1,201 +1,68 @@
-<html lang="hi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>मेरा पोर्टफोलियो</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
-        header {
-            background-color: #4f46e5;
-            color: white;
-            padding: 40px 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 26px;
-        }
-        header p {
-            font-size: 16px;
-            margin-top: 10px;
-        }
-        section, footer {
-            background: white;
-            padding: 20px;
-            margin: 15px auto;
-            border-radius: 10px;
-            max-width: 600px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: left;
-        }
-        h2 {
-            color: #4f46e5;
-            font-size: 20px;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-        }
-        /* बटन का डिजाइन */
-        .btn {
-            background-color: #4f46e5;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-        .btn:hover {
-            background-color: #4338ca;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- 1. हेडर सेक्शन -->
-    <header>
-        <h1>नमस्ते, मेरा नाम Asarul alom है</h1>
-        <p>मैं एक वेब डेवलपर हूँ जो वेबसाइट्स बनाना सीख रहा हूँ।</p>
-    </header>
-
-    <!-- 2. अबाउट सेक्शन -->
-    <section>
-        <h2>मेरे बारे में</h2>
-        <p>मैंने हाल ही में HTML, CSS और JavaScript से वेबसाइट बनाना सीखा है और मुझे नए प्रोजेक्ट्स बनाना पसंद है।</p>
-    </section>
-
-    <!-- 3. प्रोजेक्ट्स सेक्शन -->
-    <section>
-        <h2>मेरे प्रोजेक्ट्स</h2>
-        <p>जल्द ही मैं यहाँ अपने बनाए हुए प्रोजेक्ट्स दिखाऊँगा।</p>
-        <!-- यहाँ हमने एक इंटरैक्टिव बटन जोड़ा है -->
-        <button class="btn" onclick="sayHello()">क्लिक करें</button>
-    </section>
-
-    <!-- 4. कॉन्टैक्ट सेक्शन -->
-    <footer>
-        <h2>मुझसे संपर्क करें</h2>
-        <p>ईमेल: your-email@example.com</p>
-    </footer>
-
-    <!-- JavaScript का कोड -->
-    <script>
-        function sayHello() {
-            alert("नमस्ते! मेरी वेबसाइट पर आने के लिए आपका धन्यवाद। 🚀");
-        }
-    </script>
-
-</body>
-</html>
->
-    <footer>
-        <h2>मुझसे संपर्क करें</h2>
-        <p>ईमेल: your-email@example.com</p>
-    </footer>
-
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>मेरा पोर्टफोलियो</title>
+    <title>मेरा पहला गेम</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
-            margin: 0;
-            padding: 20px;
             text-align: center;
+            background-color: #f4f4f9;
+            padding: 50px;
         }
-        header {
-            background-color: #4f46e5;
-            color: white;
-            padding: 40px 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 26px;
-        }
-        header p {
-            font-size: 16px;
-            margin-top: 10px;
-        }
-        section, footer {
+        .game-box {
             background: white;
             padding: 20px;
-            margin: 15px auto;
             border-radius: 10px;
-            max-width: 600px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: left;
+            display: inline-block;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
         }
-        h2 {
-            color: #4f46e5;
-            font-size: 20px;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
+        input {
+            padding: 10px;
+            font-size: 16px;
+            width: 100px;
         }
-        /* बटन का डिजाइन */
-        .btn {
-            background-color: #4f46e5;
-            color: white;
-            border: none;
+        button {
             padding: 10px 20px;
             font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin-top: 10px;
-        }
-        .btn:hover {
-            background-color: #4338ca;
         }
     </style>
 </head>
 <body>
 
-    <!-- 1. हेडर सेक्शन -->
-    <header>
-        <h1>नमस्ते, मेरा नाम Asarul alom है</h1>
-        <p>मैं एक वेब डेवलपर हूँ जो वेबसाइट्स बनाना सीख रहा हूँ।</p>
-    </header>
+    <div class="game-box">
+        <h2>नंबर गेसिंग गेम 🎮</h2>
+        <p>1 से 10 के बीच का कोई एक नंबर सोचें और यहाँ डालें:</p>
+        <input type="number" id="userGuess" min="1" max="10">
+        <br><br>
+        <button onclick="checkGuess()">जांच करें</button>
+        <p id="resultText" style="font-weight: bold; margin-top: 20px;"></p>
+    </div>
 
-    <!-- 2. अबाउट सेक्शन -->
-    <section>
-        <h2>मेरे बारे में</h2>
-        <p>मैंने हाल ही में HTML, CSS और JavaScript से वेबसाइट बनाना सीखा है और मुझे नए प्रोजेक्ट्स बनाना पसंद है।</p>
-    </section>
-
-    <!-- 3. प्रोजेक्ट्स सेक्शन -->
-    <section>
-        <h2>मेरे प्रोजेक्ट्स</h2>
-        <p>जल्द ही मैं यहाँ अपने बनाए हुए प्रोजेक्ट्स दिखाऊँगा।</p>
-        <!-- यहाँ हमने एक इंटरैक्टिव बटन जोड़ा है -->
-        <button class="btn" onclick="sayHello()">क्लिक करें</button>
-    </section>
-
-    <!-- 4. कॉन्टैक्ट सेक्शन -->
-    <footer>
-        <h2>मुझसे संपर्क करें</h2>
-        <p>ईमेल: your-email@example.com</p>
-    </footer>
-
-    <!-- JavaScript का कोड -->
     <script>
-        function sayHello() {
-            alert("नमस्ते! मेरी वेबसाइट पर आने के लिए आपका धन्यवाद। 🚀");
+        // कंप्यूटर ने एक रैंडम नंबर चुना
+        let randomNumber = Math.floor(Math.random() * 10) + 1;
+
+        function checkGuess() {
+            let userVal = Number(document.getElementById("userGuess").value);
+            let result = document.getElementById("resultText");
+
+            if (userVal === randomNumber) {
+                result.style.color = "green";
+                result.textContent = "बधाई हो! आपने बिल्कुल सही जवाब दिया है! 🎉";
+            } else if (userVal > randomNumber) {
+                result.style.color = "red";
+                result.textContent = "थोड़ा छोटा नंबर सोचिए! 📉";
+            } else {
+                result.style.color = "red";
+                result.textContent = "थोड़ा बड़ा नंबर सोचिए! 📈";
+            }
         }
     </script>
 
